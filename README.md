@@ -30,7 +30,7 @@ pip install -r requirements.txt
 Then add your credentials:
 
 ```bash
-cp .env.example .env
+cp env.example .env
 chmod 600 .env
 # edit .env: WIKITCG_EMAIL and WIKITCG_PASSWORD
 ```
