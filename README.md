@@ -53,10 +53,10 @@ python wikitcg_bot.py
 OR 
 uv run wikitcg_bot.py 
 
-# Run forever: open every 15min when a pack is available
-python wikitcg_bot.py --target 1
+# Run forever: open every 15min when a pack is available and open specials
+python wikitcg_bot.py --target 1 --specials
 OR
-uv run wikitcg_bot.py --target 1
+uv run wikitcg_bot.py --target 1 --specials
 ```
 
 | Option | Description |
